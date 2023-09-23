@@ -1,0 +1,22 @@
+{
+	"name": "interview-tasks-main",
+	"version": "1.0.0",
+	"description": "## 1. Верстка ### Задача: дополнить scss правила так, чтобы представленная html разметка приобрела вид как на картинке.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chistyakofff/interview-tasks-main.git"
+	},
+	"author": "Chistyakov Alexey",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chistyakofff/interview-tasks-main/issues"
+	},
+	"homepage": "https://github.com/chistyakofff/interview-tasks-main#readme",
+	"devDependencies": {
+		"sass": "^1.68.0"
+	}
+}

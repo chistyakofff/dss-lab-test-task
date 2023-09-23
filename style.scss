@@ -1,0 +1,72 @@
+body {
+	box-sizing: border-box;
+}
+
+.dialog-container {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #777;
+	padding: 100px;
+}
+
+.dialog {
+	background-color: #fff;
+	max-height: 500px;
+	max-width: 350px;
+	display: flex;
+	flex-direction: column;
+	&__header {
+		background-color: #ddd;
+		display: flex;
+	}
+
+	&__header-title-container {
+		max-width: 66%;
+	}
+
+	&__header-title {
+		width: 100%;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+
+	&__header-button {
+		flex-shrink: 0;
+	}
+
+	&__content {
+		overflow: hidden;
+		display: flex;
+	}
+
+	&__content-block {
+		&_left {
+			width: 30%;
+			border-right: 1px solid #ccc;
+			height: 500px;
+		}
+
+		&_right {
+			width: 70%;
+			overflow-y: auto;
+		}
+	}
+
+	&__footer {
+		background-color: #ddd;
+		word-break: break-word;
+		text-align: center;
+	}
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 500px;
+	width: 100%;
+}
